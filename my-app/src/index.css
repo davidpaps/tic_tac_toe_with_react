@@ -1,28 +1,15 @@
 body {
-  font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
-}
-
-ol, ul {
-  padding-left: 30px;
-}
-
-.board-row:after {
-  clear: both;
-  content: "";
-  display: table;
-}
-
-.status {
-  margin-bottom: 10px;
+  background-image: url('https://cdn.dribbble.com/users/108183/screenshots/5288723/tic_tac_toe_loader_.gif');
+  background-size: 100%;
+  font: 20px "Century Gothic", Futura, sans-serif;
+  margin: 50px;
 }
 
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  background: rgb(241, 241, 22);
+  border: 1px solid rgb(184, 69, 69);
   float: left;
   font-size: 24px;
-  font-weight: bold;
   line-height: 34px;
   height: 34px;
   margin-right: -1px;
@@ -32,14 +19,6 @@ ol, ul {
   width: 34px;
 }
 
-.square:focus {
-  outline: none;
-}
-
-.kbd-navigation .square:focus {
-  background: #ddd;
-}
-
 .game {
   display: flex;
   flex-direction: row;
@@ -47,4 +26,11 @@ ol, ul {
 
 .game-info {
   margin-left: 20px;
+  display: inline-block;
+}
+
+button {
+  background-color:  rgb(241, 241, 22);
+  border: transparent;
+   padding: 5px 5px;
 }

@@ -23,5 +23,13 @@ Simply clone this repo, navigate into the [*my-app*](my-app) directory and in th
 npm start
 ```
 
-Then visit [*localhost:3000*](http://localhost:3000/) to run the game!
+Then visit [*localhost:3000*](http://localhost:3000/) to run and play the game!
 
+### Start Screen 
+<img src="./my-app//public/startscreen.png">
+
+### End Game Screen
+<img src="./my-app/public/endgame.png">
+
+### Review Move History
+<img src="./my-app/public/reviewmove.png">
