@@ -25,6 +25,8 @@ npm start
 
 Then visit [*localhost:3000*](http://localhost:3000/) to run and play the game!
 
+---
+
 ### Start Screen 
 <img src="./my-app//public/startscreen.png">
 
